@@ -2,8 +2,8 @@
 export default {
   name: 'HomePage',
 
-  async asyncData({ $content, params, error }) {
-    const articles = await $content('articles').only(['title', 'slug']).fetch()
+  async asyncData({ $content }) {
+    const articles = await $content('articles').only(['title', 'path']).fetch()
 
     return { articles }
   },
@@ -15,8 +15,8 @@ export default {
     <section>
       <h2>Articles</h2>
       <ul>
-        <li v-for="article in articles" :key="article.slug">
-          <NuxtLink :to="article.path">{{ article.title }}</NuxtLink>
+        <li v-for="article in articles" :key="article.path">
+          <nuxt-link :to="article.path">{{ article.title }}</nuxt-link>
         </li>
       </ul>
     </section>
