@@ -20,5 +20,16 @@ export default {
         </li>
       </ul>
     </section>
+
+    <section>
+      <h2>Experiments</h2>
+      <ul>
+        <li>
+          <nuxt-link to="experiments/DynamicPreviewImage">
+            Dynamic preview image
+          </nuxt-link>
+        </li>
+      </ul>
+    </section>
   </main>
 </template>
