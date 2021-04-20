@@ -1,8 +1,6 @@
 <script>
 export default {
   name: 'Default',
-
-  data: () => ({}),
 }
 </script>
 
@@ -13,7 +11,7 @@ export default {
 </template>
 
 <style lang="scss">
-html {
-  // @apply bg-black;
-}
+// html {
+//   @apply bg-black;
+// }
 </style>
