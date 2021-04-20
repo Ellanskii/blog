@@ -1,5 +1,6 @@
 <script>
 import TableOfContents from '~/components/TableOfContents.vue'
+
 export default {
   name: 'ArticlePage',
   components: { TableOfContents },
@@ -48,12 +49,10 @@ export default {
 </script>
 
 <template>
-  <article class="container">
-    <TableOfContents :toc="article.toc" />
-    <NuxtContent
-      class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto"
-      :document="article"
-    />
+  <article class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto">
+    <TableOfContents v-if="false" :toc="article.toc" />
+    <h1>{{ article.title }}</h1>
+    <NuxtContent :document="article" />
   </article>
 </template>
 
