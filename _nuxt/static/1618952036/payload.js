@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{articles:[{title:"Why should you make your website accessible if you are not disabled (or mother told you so)",path:"\u002Farticles\u002Faccessibility"},{title:"Animating box-shadows",path:"\u002Farticles\u002Fanimating-box-shadows"},{title:"Getting started",path:"\u002Farticles\u002Fhello"}]}],fetch:{},mutations:void 0});
