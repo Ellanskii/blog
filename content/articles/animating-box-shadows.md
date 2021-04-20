@@ -1,0 +1,1 @@
+## Never animate box-shadows
