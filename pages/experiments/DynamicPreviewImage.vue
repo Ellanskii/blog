@@ -28,17 +28,17 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: './experiments/DynamicPreviewImage/fb.jpg',
+        content: 'https://ellanskii.github.io/blog/experiments/DynamicPreviewImage/fb.jpg',
       },
       {
         hid: 'vk:image',
         property: 'vk:image',
-        content: './experiments/DynamicPreviewImage/vk.jpg',
+        content: 'https://ellanskii.github.io/blog/experiments/DynamicPreviewImage/vk.jpg',
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: './experiments/DynamicPreviewImage/twitter.jpg',
+        content: 'https://ellanskii.github.io/blog/experiments/DynamicPreviewImage/twitter.jpg',
       },
       // { hid: 'og:whatsapp-image', property: 'og:image', content: whatsappImage },
       // { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
