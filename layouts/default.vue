@@ -7,13 +7,13 @@ export default {
 </script>
 
 <template>
-  <div class="bg-white dark:bg-black">
+  <div>
     <nuxt />
   </div>
 </template>
 
 <style lang="scss">
 html {
-  @apply bg-black;
+  // @apply bg-black;
 }
 </style>
